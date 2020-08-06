@@ -123,8 +123,8 @@ header div img {
     width:95%;
     background-color:#DDB9A3;
     margin:0 auto;
-    padding:2%;
-    color:#fff;
+    padding:.6rem 2rem;
+    color:white;
   }
   .textOne p{
     margin: 2% 0;
