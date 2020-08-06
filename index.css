@@ -42,7 +42,7 @@ a {
 
 body {
     max-width: 1200px;
-    min-width: 1045px;
+    min-width: 1080px;
     margin: 4rem auto;
 }
 
@@ -59,7 +59,7 @@ nav a {
     max-width: 16rem;
     padding: 1rem 2.5rem;
     text-align: center;
-    margin: 2rem 8.5%;
+    margin: 2rem 8% 2rem 10%;
 }
 
 .plan {
@@ -74,9 +74,10 @@ nav a {
     background-color: #FFCD69;
 }
 
-header div>*{
+/* puts a border around all children */
+/* header div>*{
     border: 1px solid red;
-}
+} */
 
 header div {
     height: 35rem;
@@ -117,3 +118,14 @@ header div img {
 .headtext p:last-child {
     width: 45%;
 }
+
+.textOne{
+    width:95%;
+    background-color:#DDB9A3;
+    margin:0 auto;
+    padding:2%;
+    color:#fff;
+  }
+  .textOne p{
+    margin: 2% 0;
+  }
